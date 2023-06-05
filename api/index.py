@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/api/client/g6K4Xte")
+@app.route("/api/v1/chat/completions")
 def test():
     return "make the chatgpt stuff!"
