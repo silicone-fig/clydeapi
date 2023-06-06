@@ -29,5 +29,3 @@ def chat_gpt():
     response = requests.post(url, headers=headers, json=payload)
     
     return response.text
-
-app.run()
